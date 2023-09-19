@@ -1,0 +1,40 @@
+    2  git config --global user.name "Anna Bodily"
+    3  git config --list
+   11  git status
+   24  git init
+   25  git status
+   26  git add file_1.txt
+   27  git add file_1.txt
+   30  git add file_1.txt
+   31  git status
+   32  git commit -m 'create file_1.txt'
+   33  git status
+   34  git log
+   36  git status
+   37  git add file_2.txt
+   38  git status
+   39  git commit -m 'Edit text files'
+   40  git status
+   41  git log
+   42  git log --oneline
+   43  git reset --hard commit_hash
+   47  git log
+   48  find / -type d -name ".git" 2>/dev/null
+   49  git config --global user.name "Anna Bodily"
+   50  git config --global usern.email "annalallen6@gmail.com"
+   51  git config --global core.editor "code --wait"
+   52  git config --global init.defaultBranch main
+   53  git status
+   54  git log
+   56  git config --global init.defaultBranch main
+   57  git init
+   58  rm -rf .git
+   64  cd /git
+   72  cd git_practice
+   77  gitinit
+   78  git init
+   85  cd git_practice_gmspringer32
+   86  git push origin feature-annleealbod
+   91  cd git_practice
+   92  git log --oneline > gitlog.txt
+   93  history | grep git > history.txt
